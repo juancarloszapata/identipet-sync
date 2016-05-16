@@ -1,0 +1,39 @@
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    max-width: 8.333%;
+    flex-basis: 8.333%;
+}
+
+.col-2 {
+    max-width: 16.667%;
+    flex-basis: 16.667%;
+}
+
+.col-3 {
+    max-width: 8.333%;
+    flex-basis: 8.333%;
+}
+
+.col-0 {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.top {
+    align-items: flex-start
+}
+
+.middle {
+    align-items: center
+}
+
+.bottom {
+    align-items: flex-end;
+}
